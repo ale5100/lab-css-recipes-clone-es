@@ -1,0 +1,78 @@
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+ul li {
+position: relative;
+padding-left: 20px;
+}
+
+ul li:before {
+content: "-";
+position: absolute;
+left: 0%;
+transform: translateX(-50%);
+top: 0px;
+}
+
+
+
+
+.table-with-apples{
+
+    position: absolute;
+    top: 25vw; 
+    left: 20svw;
+    color: white;
+    font-size: 15svw;
+    font-weight: bold;
+    z-index: 1;
+    justify-content: center;
+
+}
+
+
+.image-apple{
+    width: 100%;
+    height: auto;
+    background size: cover;
+
+}
+
+.margin {
+    margin:10%;
+    font-size: 30px;
+}
+
+.instructions {
+
+   margin-left: 30%;
+}
+
+.time {
+
+    margin-left: 30%;
+}
+
+.separador-horizontal {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .separador-horizontal2 {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
